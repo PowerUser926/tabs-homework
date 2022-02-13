@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrap {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 0;
+    border-top: 4px solid #4343f7;
+    border-bottom: 4px solid #4343f7;
+}
+
+.tabLink {
+    width: 170px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tabLink:hover, .tabLinkActive {
+    background-color: #ffe600;
+}
+
+.tabContent {
+    display: none;
+    padding: 30px 10px;
+    background-color: #ffe600;
+    font-weight: bold;
+}
+
+.tabContentActive {
+    display: block;
+}
